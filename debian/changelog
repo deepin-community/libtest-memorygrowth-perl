@@ -1,0 +1,19 @@
+libtest-memorygrowth-perl (0.04-1) unstable; urgency=medium
+
+  * debian/watch: use uscan version 4.
+  * Import upstream version 0.04.
+  * Drop spelling.patch, applied upstream.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Drop unneeded version constraints from (build) dependencies.
+  * Bump debhelper-compat to 13.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 20 Jun 2020 00:41:11 +0200
+
+libtest-memorygrowth-perl (0.03-1) unstable; urgency=medium
+
+  * Initial release (closes: #921348).
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 04 Feb 2019 15:05:06 +0100
